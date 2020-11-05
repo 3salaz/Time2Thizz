@@ -1,0 +1,44 @@
+/* Best Practices */
+/* 
+    - Stop using css instead of utilizing semantic tag (benifits SEO)
+    - Compress Css Before Deploying
+    - Avoid Using Important Rules
+    - Use Short Hand Property When Possible
+    - Dont Overuse A Class
+    - Check Browser Support [ Chrome, Firefox, Edge, Safari ]
+
+
+
+*/
+* {
+    margin:0; padding:0;
+}
+
+body{
+
+}
+
+p {
+    margin:5px 0 10px 0; 
+}
+
+h1{
+    font-size: 36px;
+}
+/* CLASS HELPERS */
+.container {
+    margin: 0 3em;
+    padding: 2em 0;
+}
+/* --------------------------------------------------- */
+
+/* ***Nav*** */
+
+/* ***HEADER*** */
+header, main{
+    text-align: center;
+}
+/* ***MAIN*** */
+main{
+    background-color: orange;
+}
